@@ -1,0 +1,68 @@
+:root{
+    --emp-content: #93a1a1;
+    --base-content: #839496;
+    --bkgnd-color: #002b36;
+    --base02: 	#073642;
+    --sol-yel: #b58900;
+    --sol-orng: #cb4b16;
+    --sol-red: #dc322f;
+    --sol-mag: #d33682;
+    --sol-vio: #6c71c4;
+    --sol-blu: #268bd2;
+    --sol-cyn: #2aa198;
+    --sol-grn: #859900; 
+}
+
+body {
+    font-family: 'IBM Plex Mono';
+    background-color: var(--bkgnd-color);
+}
+.flex-all {
+    display: flex;
+    flex-direction: column;
+    color: var(--base-content);
+}
+
+.info {
+    padding-left: 2%;
+}
+
+i {
+    color:#586e75;
+}
+h1 {
+    color: var(--sol-orng);
+}
+h2 {
+    color: var(--sol-yel);
+}
+b {
+    color:var(--sol-grn);
+}
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+a:link {
+    color:var(--sol-grn);
+    text-decoration: none;
+}
+a:visited {
+    color:var(--sol-vio);
+    text-decoration: none;
+}
+
+.flex-all > div {
+    margin: 1%;
+}
+.flex-header {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.flex-header > i {
+    align-self:center; 
+    padding-left: 1%;
+    padding-top: 1%;
+}
